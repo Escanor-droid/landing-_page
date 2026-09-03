@@ -9,13 +9,12 @@ body{
 .nav{
     display: flex;
     justify-content: space-around;
-    padding: 10px 10px;
 }
 .nav-logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 20px;
   
 }
 .nav-links{
@@ -26,11 +25,36 @@ body{
 }
 .nav-links a{
     color: #f9faf8;
-    font-size: 24px;
+    font-size: 14px;
     text-decoration: none;
 }
 .header-main{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 75px;
+    gap: 20px;
+}
+.header-main > div{
+    flex: 1;
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+}
+.header-img{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #e5e7e5;
+    color: #1f2937;
+}
+.header-main button{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
 }
 .main-content{
     display: flex;
@@ -45,14 +69,18 @@ body{
     justify-content: space-between;
     gap: 50px;
 }
-h1{
+.info{
     text-align: center;
-    font-style: bold;
 }
 .box1, .box2, .box3, .box4{
     height: 100px;
     width: 100px;
     border: blue solid 2px;
     border-radius: 20px;
-
+}
+.some-quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 75px;;
 }
